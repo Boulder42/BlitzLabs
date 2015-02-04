@@ -1,0 +1,40 @@
+.deletePanel {
+	border: 1px solid #5E5E5E;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0px 0px 4px #CCC;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	margin: 3%;
+}
+
+.deletePanel .heading {
+	background: #525252;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	color: #999999;
+	padding: 10px 35px;
+}
+
+.deletePanel .body {
+	padding: 10px 35px;
+	background: #7C7C7C;
+	color: #525252;
+}
+
+.deletePanel .showOnHover {
+	display: none;
+}
+
+.deletePanel:hover {
+	box-shadow: 0px 0px 8px black;
+	border: 2px solid #5E5E5E;
+}
+
+.deletePanel:hover .showOnHover {
+	display: inline-block;
+}
+
+.hrFrontPage {
+	border: 1px solid #454545;
+}
